@@ -3,8 +3,8 @@ $:.push File.expand_path("../lib", __FILE__)
 require "deathbycaptcha/version"
 
 Gem::Specification.new do |s|
-  s.add_dependency 'rest-client', '~> 1.6.1'
-  s.add_dependency 'json', '>= 1.4.6'
+  s.add_dependency 'rest-client'
+  s.add_dependency 'json'
   
   s.name        = "deathbycaptcha"
   s.version     = DeathByCaptcha::VERSION
